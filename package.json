@@ -1,0 +1,13 @@
+{
+  "name": "aureon-solana",
+  "private": true,
+  "scripts": {
+    "api": "ts-node api/server.ts",
+    "deploy": "ts-node scripts/deploy.ts",
+    "cli": "ts-node cli/aureon.ts"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "express": "^4.19.2"
+  }
+}
